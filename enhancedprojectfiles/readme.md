@@ -1,29 +1,28 @@
 # Category 1: Software Engineering and Design
 
 
-The artifact selected for enhancement in database is the CrudModule class file, part of the Grazioso Salvare Project in the Advanced Programming Concepts course (CS340). The artifact, developed using Python, was originally created in December 2022, for the purpose of authenticating access to the database and implementing the CRUD (create, read, update, and delete) functionality for the database. The project consisted of the import of the mongoimport tool for accessing the database, the creation of an administrator and user account, a PY file, using object-oriented programming methodology, to enable the CRUD functionality, and a Python module to test and ensure each account type could be accessed and each part of the CRUD module operated properly. 
+The artifacts selected for enhancement in the software engineering and design category are Task and Task Service class, part of the Grand Strand Application Project in the Software Testing, Automation, and Quality Assurance course (CS320). The artifacts were originally created in December 2021, and the two Java class files were developed to use in-memory data structures to support storing tasks. The Task class required a name string field between 1 and 20 characters, therefore not null, and a description field of no more than 50 characters. The Task Service Class required a unique ID with the ability to delete and update tasks per task ID. Only the name and description fields can be updated. 
+
 
 
 ### The Task and Task Service class files were selected to demonstrate the following: 
-#### 1.	Employment strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science by:
-a.	Using a test instance for privacy and data protection
-b.	Using a test instance to simulate cyber attacks
-c.	Using a test instance for learning and innovation
+#### 1.	Demonstrating an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database) by:
+a.	Using smart default logic to improve the overall user experience.
+b.	Creating a helper class to implement the smart default functionality and allow for developer collaboration and configuration management.
+c.	Integrating the smart default logic into the task creation form, using the contact name as a parameter for the task input.
 
-#### 2.	The development of a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by:
-a.	Promoting secure development lifecycle practices
-b.	Enforcing the principle of least privilege
-c.	Facilitating test environments for security audits and penetration testing
 
-#### The enhancements made to implement a test configuration and test instance in the CRUD Python Script, along with its corresponding Dashboard class file and test script, demonstrate a variety of skills and abilities to databases such as:
-1.	Database management by creating database schemas for different environments and designing test data that reflects production data structures without using real data.
-2.	Database system design by creating a modular design that allows switching between different configurations, in this case a test configuration and instance.
-3.	Database collaboration by documenting code files in a way to allow for cross-functional team collaboration for development, security, and operations.
+#### The enhancements made to implement the smart defaults logic in the Task and Task Service class, along with its corresponding Contact class files, demonstrate a variety of skills and abilities to software engineering and design such as:
+1. Algorithmic thinking and problem-solving by understanding the functionality of the software, how users will interact with the application, and creating enhancements that demonstrate the ability to anticipate user needs. 
+2. focus on software architecture and design by using a helper class to manage default values and structure the code in a maintainable and scalable way, adhering to software architecture practices commonly used for setting specific behaviors.
+3. Testing and quality assurance using a unit test to verify the smart defaults functionality passes in different scenarios through the composition of testable code, also known as Test-Driven Development (TDD).
+
    
 #### Enhancements to the artifact include the following: 
-1.	Incorporating a test mode configuration parameter within the AnimalShelter Python file, which runs the instance in test mode if test mode = true.
-2.	Importing the use of Mongomock in the CrudModule class file, which is used to for in-memory database access in testing environments.
-3.	 Incorporating test credentials for database access authentication.
-4.	Separate test scripts for testing in production and development environments.
-5.	The replacement of the printing statement for logging, which is a more suitable solution for the use of development and production environments, making outputs cleaner.
-6.	The replacement of block exceptions with catch specific exceptions, which helps with debugging by providing more information on errors as they arise.
+1.	Created a helper class file, which contains the logic for generating default task names
+2.	Modified the Task class file to call ‘DefaultTaskHelper.generateDefaulTaskName’ when a contact is selected.
+3.	Updated the Task and TaskService class files to use ‘DefaultTaskHelper’ to set the default name when a new task is created without a specific name.
+4.	Created a new test class, ‘DefaultTaskHelperTest’, and wrote unit tests that pass contact names to ‘generateDefaultTaskName’ and return the correct default task name.
+5.	Updated the TaskServiceTest class file to test that when a new task is created with a selected contact, the default name is set correctly.
+6.	Added a header to the code files, followed by updating code comments throughout the class files.
+

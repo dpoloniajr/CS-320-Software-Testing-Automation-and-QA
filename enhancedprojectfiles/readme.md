@@ -1,6 +1,5 @@
-Category 1: Software Engineering and Design
+# Category 1: Software Engineering and Design
 
-========================
 
 The artifact selected for enhancement in database is the CrudModule class file, part of the Grazioso Salvare Project in the Advanced Programming Concepts course (CS340). The artifact, developed using Python, was originally created in December 2022, for the purpose of authenticating access to the database and implementing the CRUD (create, read, update, and delete) functionality for the database. The project consisted of the import of the mongoimport tool for accessing the database, the creation of an administrator and user account, a PY file, using object-oriented programming methodology, to enable the CRUD functionality, and a Python module to test and ensure each account type could be accessed and each part of the CRUD module operated properly. 
 

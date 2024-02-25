@@ -29,7 +29,7 @@ public class Task {
 	private String description;
 
 	/*
-	 * Our constructor with its parameters and conditionals set to the 
+	 * The constructor with its parameters and conditionals set to the 
 	 * specifications in the requirements doc. Then assigning the values 
 	 * if the conditional statements pass.
 	 */

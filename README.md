@@ -60,7 +60,6 @@ so, you must complete the following:
    a. Task Requirements
     i. The task object shall have a required unique task ID String that cannot be
    longer than 10 characters. The task ID shall not be null and shall not be updatable.
-
    ii. The task object shall have a required name String field that cannot be
    longer than 20 characters. The name field shall not be null.
     iii. The task object shall have a required description String field that cannot
@@ -72,7 +71,7 @@ so, you must complete the following:
    following fields are updatable:
     1. name
     2. description
-3. **Appointment Service**: In the Module Five milestone, you developed the
+4. **Appointment Service**: In the Module Five milestone, you developed the
    appointment service. The appointment service used in-memory data structures
    to support storing appointments (no database required). In addition, there
    was no UI for this assignment. You verified the appointment service through

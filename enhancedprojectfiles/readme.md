@@ -6,10 +6,10 @@ The artifacts selected for enhancement in the software engineering and design ca
 
 
 ### The Task and Task Service class files were selected to demonstrate the following: 
-#### 1.	Demonstrating an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database) by:
-a.	Using smart default logic to improve the overall user experience.
-b.	Creating a helper class to implement the smart default functionality and allow for developer collaboration and configuration management.
-c.	Integrating the smart default logic into the task creation form, using the contact name as a parameter for the task input.
+#### Demonstrating an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database) by:
+1.	Using smart default logic to improve the overall user experience.
+2.	Creating a helper class to implement the smart default functionality and allow for developer collaboration and configuration management.
+3.	Integrating the smart default logic into the task creation form, using the contact name as a parameter for the task input.
 
 
 #### The enhancements made to implement the smart defaults logic in the Task and Task Service class, along with its corresponding Contact class files, demonstrate a variety of skills and abilities to software engineering and design such as:
